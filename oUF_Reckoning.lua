@@ -47,7 +47,7 @@ local function Update(self, event)
 		element:PreUpdate()
 	end
 
-	local i, currStacks, stacks, spellId, _ = 1
+	local i, currStacks, stacks, spellId, _ = 1,.0
 
 	repeat
 		stacks, _, _, _, _, _, _, spellId = select(3, UnitBuff("player", i))
